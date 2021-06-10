@@ -21,7 +21,7 @@ body {
 }
 
 .large-font {
-    font-size: 70px;
+    font-size: 100px;
     font-family: Arial;
 }
 
@@ -33,7 +33,12 @@ body {
     background-color: #607D8B;
     padding: 0px 0px 40px 40px;
 }
-
+.texting{
+  font-size:30px;
+}
+.texting2{
+  font-size:18px;
+}
 input {
     background-color: #607D8B;
     padding: 24px 0px 12px 0px !important;
@@ -110,8 +115,11 @@ button:hover{
     color: #2196F3;
     text-decoration: none;;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .card1 {
         padding-left: 26px;
     }
+  .large-font{
+    font-size:200px;
+  }
 }
