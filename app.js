@@ -37,7 +37,7 @@ app.get("/",function(req,res){
         day="Saturday";
     }
     const query="Madurai";
-    const appid="9fc3494645d5c616d5e88ca1caca9044";
+    const appid="REGISTER INTO LIVEWEATHERORG AND USE YOUR OWN APP ID";
     const unit="metric";
     const url ="https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+appid+"&units="+unit;
     https.get(url,function(response){
