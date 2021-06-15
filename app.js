@@ -7,8 +7,6 @@ const app = express();
 app.set('view engine','ejs');
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.static('public'));
-var cityarr=[];
-var city_search;
 
 
 app.get("/",function(req,res){
